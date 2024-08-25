@@ -36,8 +36,8 @@
             <TextBlock Text="Bodily Injuries:"/>
             <TextBox x:Name="BodilyInjuriesTextBox" Width="200"/>
 
-            <Button Content="Check Person" Click="CheckPerson_Click" Width="100" Margin="0,20,0,0"/>
-            <Button Content="Save Person" Click="SavePerson_Click" Width="100"/>
+            <Button Content="Check Person" Click="OnPersonClick" Width="100" Margin="0,20,0,0"/>
+            <Button Content="Save Person" Click="OnPersonSave" Width="100"/>
         </StackPanel>
     </Grid>
 </Window>
